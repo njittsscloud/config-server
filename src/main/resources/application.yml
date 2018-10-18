@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://gitee.com/mytt_10566/config-server
           search-paths:
           username:
           password: 

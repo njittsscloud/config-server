@@ -12,6 +12,20 @@ spring:
           uri: git@gitee.com:mytt_10566/config-server.git
           search-paths: config-repo
           username:
-          password: 
+          password:
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://dev.tss.com:8080/eureka/
+          
+security:
+  user:
+    name: admin
+    password: admin
+
+# 对称性秘钥    
+#encrypt: 
+#  key: tss
     
   

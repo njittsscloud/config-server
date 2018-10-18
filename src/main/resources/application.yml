@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/mytt_10566/config-server
-          search-paths:
+          uri: https://gitee.com/mytt_10566/config-server/
+          search-paths: src/main/resources/config-repo
           username:
           password: 
     
